@@ -1,0 +1,70 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#Vid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-text{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.btn-box{
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+    border: solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    min-height: 40px;
+    min-width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#slide{
+    left: -2%;
+    width: 53%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    border-radius: 20px;
+    color: white;
+    z-index: 1;
+    transition: .3s;
+}
+
+.vid-btn{
+    background: transparent;
+    color: white;
+    border: 0;
+    font-size: large;
+    font-weight: bold;
+    opacity: .7;
+    z-index: 0;
+}
